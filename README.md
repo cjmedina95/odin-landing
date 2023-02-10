@@ -1,2 +1,22 @@
-# odin-landing
-Odin's Landing Page
+# Odin's Landing Page
+
+## Objective
+
+Create a landing page which matches the design and criteria of the following two images below:
+
+<img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/01.png" width="300">
+
+<img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/02.png" width="300">
+
+## Task list
+
+- [ ] Header bar
+- [ ] Sign-up section
+- [ ] Random information section
+- [ ] Quote section
+- [ ] Call to action
+- [ ] Footer
+
+## Review
+
+TBD.
