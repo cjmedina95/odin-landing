@@ -33,6 +33,12 @@ header a:hover {
     text-decoration: underline;
 }
 
+.headerLogo {
+    font-size: 24px;
+    font-weight: 600;
+    color: #F9FAF8;
+}
+
 nav ul {
     margin: 0
 }
@@ -72,28 +78,6 @@ body {
     margin-top: 8px;
 }
 
-#button {
-    display:flex;
-    background-color: #3882F6;
-    max-width:fit-content;
-    align-items: center;
-    justify-content: center;
-    padding-left: 32px;
-    padding-right: 32px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    border-radius: 8px;
-}
-
-.placeholderImg {
-    height: 256px;
-    display: flex;
-    background-color: #797688;
-    justify-content: center;
-    align-items: center;
-    font-size: 18px;
-}
-
 .col1,
 .col2 {
     width: 50%;
@@ -107,7 +91,78 @@ body {
     justify-content: space-evenly;
 }
 
-.headerLogo {
-    font-size: 24px;
-    color: #F9FAF8;
+#button {
+    display:flex;
+    background-color: #3882F6;
+    
+    max-width:fit-content;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+#button a {
+    color: white;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.placeholderImg {
+    height: 256px;
+    display: flex;
+    background-color: #797688;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+#information {
+    display: flex;
+    background-color: white;
+    color: #1F2937;
+    align-items: center;
+    justify-content: space-evenly;
+    min-height: 540px;
+    flex-direction: column;
+}
+
+#information ul {
+    width: 66%;
+    min-width: 1024px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 112px;
+}
+
+#information li {
+    width: 160px;
+}
+
+#information h1 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.illustrations {
+    display: flex;
+    justify-content: center;
+    width: 66%;
+}
+
+.subText {
+    max-width: inherit;
+    text-align: center;
+    margin-top: 8px;
+    color: #505C6C;
+}
+
+.squareImg {
+    height: 160px;
+    border-radius: 8px;
+    border-color: #3882F6;
+    border-style: solid;
 }
