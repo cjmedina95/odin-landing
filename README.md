@@ -11,7 +11,7 @@ Create a landing page which matches the design and criteria of the following two
 ## Task list
 
 - [x] Header bar
-- [ ] Sign-up section
+- [x] Sign-up section
 - [ ] Random information section
 - [ ] Quote section
 - [ ] Call to action
