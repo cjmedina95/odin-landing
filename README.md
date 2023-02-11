@@ -10,7 +10,7 @@ Create a landing page which matches the design and criteria of the following two
 
 ## Task list
 
-- [ ] Header bar
+- [x] Header bar
 - [ ] Sign-up section
 - [ ] Random information section
 - [ ] Quote section
