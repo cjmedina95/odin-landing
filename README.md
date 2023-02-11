@@ -15,7 +15,7 @@ Create a landing page which matches the design and criteria of the following two
 - [x] Random information section
 - [x] Quote section
 - [x] Call to action
-- [ ] Footer
+- [x] Footer
 
 ## Review
 
