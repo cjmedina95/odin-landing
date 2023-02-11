@@ -12,7 +12,7 @@ Create a landing page which matches the design and criteria of the following two
 
 - [x] Header bar
 - [x] Sign-up section
-- [ ] Random information section
+- [x] Random information section
 - [ ] Quote section
 - [ ] Call to action
 - [ ] Footer
