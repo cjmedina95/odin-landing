@@ -11,7 +11,7 @@ a {
 header,
 footer,
 #hero {
-    background-color: #1F2937;
+    background-color: #025043;
 }
 
 header {
@@ -37,6 +37,12 @@ header a:hover {
     font-size: 24px;
     font-weight: 600;
     color: #F9FAF8;
+    display: flex;
+    align-items: center;
+}
+
+.headerLogo p {
+    margin-left: 16px;
 }
 
 nav ul {
@@ -55,7 +61,7 @@ body {
 #hero {
     display: flex;
     justify-content: space-between;
-    height: 384px;
+    height: 512px;
     min-height: fit-content;
     padding-left: 15%;
     padding-right: 15%;
@@ -82,7 +88,7 @@ body {
 #hero .col1,
 #hero .col2 {
     width: 50%;
-    height: 256px;
+    height: 384px;
     
 }
 
@@ -94,7 +100,7 @@ body {
 
 #button {
     display:flex;
-    background-color: #3882F6;
+    background-color: #F98F45;
     max-width:fit-content;
     align-items: center;
     justify-content: center;
@@ -110,7 +116,8 @@ body {
 }
 
 .placeholderImg {
-    height: 256px;
+    height: 384px;
+    width: 100%;
     display: flex;
     background-color: #797688;
     color: #E5E7EB;
@@ -119,10 +126,15 @@ body {
     font-size: 18px;
 }
 
+.placeholderImg img {
+    width: inherit;
+    height: 100%;
+}
+
 #information {
     display: flex;
     background-color: #F9FAF8;
-    color: #1F2937;
+    color: #025043;
     align-items: center;
     justify-content: space-evenly;
     min-height: 540px;
@@ -169,8 +181,14 @@ body {
 
 .squareImg {
     height: 160px;
+
+}
+
+.squareImg img {
+    height: inherit;
+    width: auto;
     border-radius: 8px;
-    border-color: #3882F6;
+    border-color: #28a99e;
     border-style: solid;
 }
 
@@ -181,7 +199,7 @@ body {
     justify-content: center;
     min-height: 448px;
     background-color: #E5E7EB;
-    color: #1F2937;
+    color: #025043;
     padding-left: 25%;
     padding-right: 25%;
 }
@@ -212,7 +230,7 @@ body {
     justify-content: space-around;
     align-items: center;
     color: #F9FAF8;
-    background-color: #3882F6;
+    background-color: #28a99e;
     height: 40%;
     width: 70%;
     border-radius: 8px;
@@ -222,6 +240,8 @@ body {
     display: flex;
     border-style: solid;
     border-radius: 8px;
+    background-color: #F98F45;
+    border-color: #F98F45;
 }
 
 #callInner .button a {
@@ -246,5 +266,5 @@ footer {
     font-size: 18px;
     padding-top: 32px;
     padding-bottom: 32px;
-    background-color: #1F2937;
+    background-color: #025043;
 }
