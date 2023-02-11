@@ -72,20 +72,21 @@ body {
 #hero p {
     font-size: 18px;
     margin-right: 64px;
+    color: #E5E7EB;
 }
 
 #hero #button {
     margin-top: 8px;
 }
 
-.col1,
-.col2 {
+#hero .col1,
+#hero .col2 {
     width: 50%;
     height: 256px;
     
 }
 
-.col1 {
+#hero .col1 {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -94,7 +95,6 @@ body {
 #button {
     display:flex;
     background-color: #3882F6;
-    
     max-width:fit-content;
     align-items: center;
     justify-content: center;
@@ -102,7 +102,7 @@ body {
 }
 
 #button a {
-    color: white;
+    color: #F9FAF8;
     padding-left: 32px;
     padding-right: 32px;
     padding-top: 8px;
@@ -113,6 +113,7 @@ body {
     height: 256px;
     display: flex;
     background-color: #797688;
+    color: #E5E7EB;
     justify-content: center;
     align-items: center;
     font-size: 18px;
@@ -120,7 +121,7 @@ body {
 
 #information {
     display: flex;
-    background-color: white;
+    background-color: #F9FAF8;
     color: #1F2937;
     align-items: center;
     justify-content: space-evenly;
@@ -147,6 +148,10 @@ body {
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
+}
+
+#information .header {
+    text-align: center;
 }
 
 .illustrations {
@@ -194,6 +199,40 @@ body {
     align-self: flex-end;
 }
 
-#call { 
-    min-height: 384px;
+#call {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 384px;
+    width: 100%;
+}
+
+#callInner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    height: 40%;
+    width: 70%;
+    border-radius: 8px;
+}
+
+#callInner .button {
+    display: flex;
+    border-style: solid;
+    border-radius: 8px;
+}
+
+#callInner .button a {
+    color: #F9FAF8;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+#callInner .button p {
+    font-size: 18px;
+    font-weight: 600;
 }
