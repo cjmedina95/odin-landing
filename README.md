@@ -15,8 +15,8 @@ Create a landing page which matches the design and criteria of the following two
 - [x] Random information section
 - [x] Quote section
 - [x] Call to action
-- [ ] Footer
+- [x] Footer
 
 ## Review
 
-TBD.
+The website was created primarily using flexboxes, with the primary challenge being restricted to basic HTML and CSS. The site is split into different sections based on the HTML5 standard, the three main sections being the `header`, `main`, and `footer`. The `main` tag is further organized into four additional sections, containing the various parts of the full website.
