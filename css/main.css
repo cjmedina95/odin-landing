@@ -126,6 +126,8 @@ body {
     justify-content: space-evenly;
     min-height: 540px;
     flex-direction: column;
+    padding-left: 25%;
+    padding-right: 25%;
 }
 
 #information ul {
@@ -165,4 +167,33 @@ body {
     border-radius: 8px;
     border-color: #3882F6;
     border-style: solid;
+}
+
+#quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 448px;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+#quote h1 {
+    font-weight: 300;
+    font-style: italic;
+    font-size: 36px;
+}
+
+#quote p {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 16px;
+    align-self: flex-end;
+}
+
+#call { 
+    min-height: 384px;
 }
