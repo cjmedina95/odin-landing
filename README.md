@@ -14,7 +14,7 @@ Create a landing page which matches the design and criteria of the following two
 - [x] Sign-up section
 - [x] Random information section
 - [x] Quote section
-- [ ] Call to action
+- [x] Call to action
 - [ ] Footer
 
 ## Review
